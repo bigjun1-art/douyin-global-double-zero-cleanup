@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音全域双零素材清理"
+  short_description: "预演并删除全域计划中消耗和产出均为零的单条视频素材"
+  default_prompt: "使用 $douyin-global-double-zero-cleanup 预演双零素材，核对计划和数量后删除并回读。"
