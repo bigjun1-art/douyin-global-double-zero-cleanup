@@ -1,4 +1,4 @@
 interface:
-  display_name: "抖音全域双零素材清理"
-  short_description: "预演并删除全域计划中消耗和产出均为零的单条视频素材"
-  default_prompt: "使用 $douyin-global-double-zero-cleanup 预演双零素材，核对计划和数量后删除并回读。"
+  display_name: "抖音全域素材参数化执行"
+  short_description: "直播仅官号、门店可含职人，并清理全域双0素材"
+  default_prompt: "使用 $douyin-global-zero-material-cleanup 在当前登录的 Chrome 中参数化处理全域素材：直播全域只加官号视频，门店全域按需加入官号、达人和职人视频，或清理符合规则的双0素材，并完成逐 ID 回读。"
